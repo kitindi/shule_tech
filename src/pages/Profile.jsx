@@ -3,11 +3,11 @@ import { Link } from "react-router";
 const Profile = () => {
   return (
     <div className="w-full p-8">
-      <div className="w-full max-w-[650px] mx-auto bg-white py-10 px-16">
+      <div className="w-full max-w-3xl mx-auto bg-white py-10 px-16">
         <div className="flex justify-between items-center pb-4">
           <h2 className="text-lg font-semibold text-gray-700 mb-3">Complete your profile</h2>{" "}
           <Link to="/dashboard" className="p-2 cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#9b9b9b" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#9b9b9b" fill="none">
               <path d="M14.9994 15L9 9M9.00064 15L15 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               <path
                 d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z"

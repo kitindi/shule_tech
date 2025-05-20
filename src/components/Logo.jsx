@@ -2,8 +2,9 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div>
+    <div className="flex gap-2 items-center">
       <span className=" text-2xl font-extrabold w-10 h-10 rounded-md flex justify-center items-center bg-green-500 text-white">S</span>
+      <span>Shule Hub</span>
     </div>
   );
 };

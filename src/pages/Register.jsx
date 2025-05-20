@@ -44,10 +44,10 @@ const Register = () => {
     <div className="w-full h-screen flex items-center justify-center bg-gray-100">
       <div className="w-96 p-6 bg-white rounded shadow-md">
         <h1 className="text-2xl text-slate-700 font-bold mb-3.5 text-center flex items-center justify-center gap-2.5">
-          <Logo /> Shule
+          <Logo />
         </h1>
         <div className="mb-4">
-          <p className="text-lg font-medium font-slate-800  text-center">Create your free account to grow your Tech skills</p>
+          <p className="text-md font-medium text-slate-600  text-center">Create your free account to grow your Tech skills</p>
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-2 flex flex-col">

@@ -41,7 +41,7 @@ const Login = () => {
     <div className="w-full h-screen flex items-center justify-center bg-gray-100">
       <div className="w-96 p-6 bg-white rounded shadow-md">
         <h1 className="text-2xl text-slate-700 font-bold mb-3.5 text-center flex items-center justify-center gap-2.5">
-          <Logo /> Shule
+          <Logo />
         </h1>
         <div>
           <GoogleLoginButton />
