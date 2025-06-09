@@ -78,7 +78,7 @@ const Login = () => {
           <div>{loginError && <p className="text-red-500 text-xs mt-2">{loginError}</p>}</div>
           <button
             type="submit"
-            className="bg-green-500 text-white w-full py-2 mt-3 rounded-full hover:bg-green-500 cursor-pointer transition duration-300 ease-in-out"
+            className="bg-[#4fc9bf] text-white w-full py-2 mt-3 rounded-full hover:bg-[#76d5cd] cursor-pointer transition duration-300 ease-in-out"
           >
             Sign In
           </button>

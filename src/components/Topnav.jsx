@@ -10,7 +10,7 @@ const Topnav = () => {
         {currentUser.displayName ? (
           <p className="flex items-center justify-center bg-green-500 p-4 rounded-full w-5 h-5 text-lg text-white"> {currentUser.displayName[0]}</p>
         ) : (
-          <p className="flex items-center justify-center bg-green-500 p-4 rounded-full w-5 h-5 text-lg text-white">N</p>
+          <p className="flex items-center justify-center bg-[#4fc9bf] p-4 rounded-full w-5 h-5 text-lg text-white">N</p>
         )}{" "}
         <span className="cursor-pointer  rounded-full hover:bg-[#b7decf] transition duration-300 ease-in-out p-2" onClick={signOutUser}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#9b9b9b" fill="none">

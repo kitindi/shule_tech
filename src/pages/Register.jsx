@@ -29,7 +29,7 @@ const Register = () => {
       setRegisterError(""); // Clear error on successful registration
     } catch (error) {
       if (error.message.includes("auth/email-already-in-use")) {
-        setRegisterError("Email is already in use. Please use a different email.");
+        setRegisterError("Email is already in use. Please login.");
       }
       if (error.message.includes("auth/invalid-credential")) {
         setRegisterError("Invalid credentials.Enter correct email or password.");
@@ -47,7 +47,7 @@ const Register = () => {
           <Logo />
         </h1>
         <div className="mb-4">
-          <p className="text-md font-medium text-slate-600  text-center">Create your free account to grow your Tech skills</p>
+          <p className="text-md text-slate-600  text-center">Create your free account to grow your Tech skills</p>
         </div>
         <form onSubmit={handleSubmit}>
           <div className="mb-2 flex flex-col">
@@ -81,7 +81,7 @@ const Register = () => {
           <div>{registerError && <p className="text-red-500 text-xs mt-2">{registerError}</p>}</div>
           <button
             type="submit"
-            className="bg-green-500 text-white w-full py-2 mt-3 rounded-full hover:bg-green-500 cursor-pointer transition duration-300 ease-in-out"
+            className="bg-[#4fc9bf] text-white w-full py-2 mt-3 rounded-full hover:bg-[#76d5cd] cursor-pointer transition duration-300 ease-in-out"
           >
             Create account
           </button>

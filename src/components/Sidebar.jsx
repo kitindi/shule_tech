@@ -11,25 +11,25 @@ const Sidebar = () => {
       <div className="mt-8 py-8">
         <div className="flex flex-col gap-1">
           <Link to="/dashboard" className="text-sm flex gap-1 items-center hover:bg-gray-100 hover:p-2 p-2 rounded-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#9CA3AF" viewBox="0 0 256 256">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#4fc9bf" viewBox="0 0 256 256">
               <path d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"></path>
             </svg>
             <span className="ml-2 text-sm text-slate-600">Dashboard</span>
           </Link>
           <Link to="/courses" className="text-sm flex gap-1 items-center hover:bg-gray-100 hover:p-2 p-2 rounded-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#9CA3AF" viewBox="0 0 256 256">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#4FC9BF" viewBox="0 0 256 256">
               <path d="M184,112a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16h64A8,8,0,0,1,184,112Zm-8,24H112a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm48-88V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM48,208H72V48H48Zm160,0V48H88V208H208Z"></path>
             </svg>
             <span className="ml-2 text-sm text-slate-600">Courses</span>
           </Link>
           <Link to="/leaning" className="text-sm flex gap-1 items-center hover:bg-gray-100 hover:p-2 p-2 rounded-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#9CA3AF" viewBox="0 0 256 256">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#4FC9BF" viewBox="0 0 256 256">
               <path d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"></path>
             </svg>
             <span className="ml-2 text-sm text-slate-600">My Learning path</span>
           </Link>
           <Link to="/leaning" className="text-sm flex gap-1 items-center hover:bg-gray-100 hover:p-2 p-2 rounded-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#9CA3AF" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#4FC9BF" fill="none">
               <path
                 d="M12 17C10.3264 17 8.86971 18.265 8.11766 20.1312C7.75846 21.0225 8.27389 22 8.95877 22H15.0412C15.7261 22 16.2415 21.0225 15.8823 20.1312C15.1303 18.265 13.6736 17 12 17Z"
                 stroke="currentColor"
@@ -60,13 +60,13 @@ const Sidebar = () => {
             <span className="ml-2 text-sm text-slate-600">Competitions</span>
           </Link>
           <Link to="/community" className="text-sm flex gap-1 items-center hover:bg-gray-100 hover:p-2 p-2 rounded-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#9CA3AF" viewBox="0 0 256 256">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#4FC9BF" viewBox="0 0 256 256">
               <path d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"></path>
             </svg>
             <span className="ml-2 text-sm text-slate-600">Community</span>
           </Link>
           <Link to="/skills" className="text-sm flex gap-1 items-center hover:bg-gray-100 hover:p-2 p-2 rounded-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#9CA3AF" viewBox="0 0 256 256">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#4FC9BF" viewBox="0 0 256 256">
               <path d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"></path>
             </svg>
             <span className="ml-2 text-sm text-slate-600">Soft Skills</span>

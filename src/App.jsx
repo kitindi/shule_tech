@@ -7,6 +7,7 @@ import ProtectedRoutes from "./protectedRoutes/ProtectedRoutes";
 import Courses from "./pages/Courses";
 import NotFound from "./pages/NotFound";
 import CourseIntro from "./pages/CourseIntro";
+import CourseUnits from "./pages/CourseUnits";
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/courses" element={<Courses />} />
-          <Route path="/course-intro" element={<CourseIntro />} />
+          <Route path="/courses/course-intro" element={<CourseIntro />} />
+          <Route path="/course/lessons" element={<CourseUnits />} />
         </Route>
         {/* 404 page */}
         <Route path="*" element={<NotFound />} />

@@ -25,7 +25,7 @@ const Profile = () => {
                 Photo
               </label>
               <div>
-                <span className="p-3 rounded-full bg-[#D1D5DB] text-black font-lg flex justify-center items-center w-12 h-12">N</span>
+                <span className="p-3 rounded-full bg-[#9de1db] text-black font-lg flex justify-center items-center w-12 h-12">N</span>
                 <span></span>
               </div>
               <div className="grid grid-cols-4 gap-3 mt-5">
@@ -55,7 +55,7 @@ const Profile = () => {
                 />
               </div>
               <div className="mt-3">
-                <button className="p-2.5 bg-green-500 text-white font-semibold w-full rounded-full cursor-pointer">Save</button>
+                <button className="p-2.5 bg-[#4fc9bf] text-white font-semibold w-full rounded-full cursor-pointer">Save</button>
               </div>
             </div>
           </form>
