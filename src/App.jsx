@@ -8,6 +8,7 @@ import Courses from "./pages/Courses";
 import NotFound from "./pages/NotFound";
 import CourseIntro from "./pages/CourseIntro";
 import CourseUnits from "./pages/CourseUnits";
+import LessonIntro from "./pages/LessonIntro";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/course-intro" element={<CourseIntro />} />
           <Route path="/course/lessons" element={<CourseUnits />} />
+          <Route path="/course/lesson/lesson-intro" element={<LessonIntro />} />
         </Route>
         {/* 404 page */}
         <Route path="*" element={<NotFound />} />

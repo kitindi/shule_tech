@@ -19,7 +19,10 @@ const CourseUnits = () => {
           <p className="text-md text-gray-600 font-semibold">Choose a lessons (5)</p>
           <div className="py-6">
             <ul className=" text-gray-600 flex flex-col gap-6">
-              <Link className="flex justify-between items-center p-4 rounded-md border-2 border-gray-200 hover:bg-gray-100 transition-all duration-200">
+              <Link
+                to="/course/lesson/lesson-intro"
+                className="flex justify-between items-center p-4 rounded-md border-2 border-gray-200 hover:bg-gray-100 transition-all duration-200"
+              >
                 <p className="text-md text-gray-500">Lesson 1: Understand how and why computers use binary to represent all forms of data</p>{" "}
                 <p className="text-md text-gray-500">
                   {" "}
