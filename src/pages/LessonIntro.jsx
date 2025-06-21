@@ -48,7 +48,7 @@ const LessonIntro = () => {
             </div>
           </div>
           <div className="col-span-6 pl-44 flex flex-col gap-5">
-            <Link to="/course/lesson/introduction" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
+            <Link to="/course/unit/lesson/introduction" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" className="fill-[#4fc9bf]" viewBox="0 0 256 256">
                   <path d="M220.17,100,202.86,70a28,28,0,0,0-38.24-10.25,27.69,27.69,0,0,0-9,8.34L138.2,38a28,28,0,0,0-48.48,0A28,28,0,0,0,48.15,74l1.59,2.76A27.67,27.67,0,0,0,38,80.41a28,28,0,0,0-10.24,38.25l40,69.32a87.47,87.47,0,0,0,53.43,41,88.56,88.56,0,0,0,22.92,3,88,88,0,0,0,76.06-132Zm-6.66,62.64A72,72,0,0,1,81.62,180l-40-69.32a12,12,0,0,1,20.78-12L81.63,132a8,8,0,1,0,13.85-8L62,66A12,12,0,1,1,82.78,54L114,108a8,8,0,1,0,13.85-8L103.57,58h0a12,12,0,1,1,20.78-12l33.42,57.9a48,48,0,0,0-5.54,60.6,8,8,0,0,0,13.24-9A32,32,0,0,1,172.78,112a8,8,0,0,0,2.13-10.4L168.23,90A12,12,0,1,1,189,78l17.31,30A71.56,71.56,0,0,1,213.51,162.62ZM184.25,31.71A8,8,0,0,1,194,26a59.62,59.62,0,0,1,36.53,28l.33.57a8,8,0,1,1-13.85,8l-.33-.57a43.67,43.67,0,0,0-26.8-20.5A8,8,0,0,1,184.25,31.71ZM80.89,237a8,8,0,0,1-11.23,1.33A119.56,119.56,0,0,1,40.06,204a8,8,0,0,1,13.86-8,103.67,103.67,0,0,0,25.64,29.72A8,8,0,0,1,80.89,237Z"></path>
@@ -64,7 +64,7 @@ const LessonIntro = () => {
                 </p>
               </div>
             </Link>
-            <Link to="/course/lesson/lesson-quiz" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
+            <Link to="/course/unit/lesson/lesson-quiz" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#4fc9bf" fill="none">
                   <path
@@ -102,7 +102,7 @@ const LessonIntro = () => {
                 </p>
               </div>
             </Link>
-            <Link to="/course/lesson/lesson-video" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
+            <Link to="/course/unit/lesson/lesson-video" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#4fc9bf" viewBox="0 0 256 256">
                   <path d="M164.44,105.34l-48-32A8,8,0,0,0,104,80v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,129.05V95l25.58,17ZM216,40H40A16,16,0,0,0,24,56V168a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,128H40V56H216V168Zm16,40a8,8,0,0,1-8,8H32a8,8,0,0,1,0-16H224A8,8,0,0,1,232,208Z"></path>
@@ -118,7 +118,7 @@ const LessonIntro = () => {
                 </p>
               </div>
             </Link>
-            <Link to="/course/lesson/lesson-worksheet" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
+            <Link to="/course/unit/lesson/lesson-worksheet" className="w-full h-24 py-5 px-16 bg-white rounded-md flex items-center gap-5 group">
               <div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" color="#4fc9bf" fill="none">
                   <path
@@ -160,7 +160,7 @@ const LessonIntro = () => {
         </div>
         <div>
           <div className="w-full h-16 bg-white flex items-center justify-end px-16 py-4">
-            <Link to="/course/lesson/lesson-video" className="bg-gray-800 text-white px-8 py-2 rounded-md">
+            <Link to="/course/unit/lesson/lesson-video" className="bg-gray-800 text-white px-8 py-2 rounded-md">
               Continue to Lesson
             </Link>
           </div>
