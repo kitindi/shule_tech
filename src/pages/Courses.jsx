@@ -5,7 +5,7 @@ const Courses = () => {
   return (
     <div className="w-full p-8">
       <div className="w-full  ">
-        <div className="flex items-center gap-4 py-10">
+        {/* <div className="flex items-center gap-4 py-10">
           <div className="flex flex-auto items-center gap-2 border border-gray-300 rounded-full px-4">
             {" "}
             <span>
@@ -23,7 +23,7 @@ const Courses = () => {
             <input type="text" className="flex-auto  p-3 outline-none " placeholder="Get a course that match your interests" />
           </div>{" "}
           <button className="bg-[#4fc9bf] text-white px-8 py-3 rounded-full cursor-pointer hover:bg-[#36b0a5] transition-all">Search</button>
-        </div>
+        </div> */}
       </div>
       <div>
         <h2 className="text-xl font-semibold text-gray-700 mb-3">Find what's right just for you</h2>
@@ -37,7 +37,7 @@ const Courses = () => {
       </div>
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-          <Link to="/courses/course-intro" className="bg-[#c4edea] rounded-lg p-6 hover:bg-[#9de1db] cursor-pointer transition-all">
+          <Link to="/courses/course-units" className="bg-[#c4edea] rounded-lg p-6 hover:bg-[#9de1db] cursor-pointer transition-all">
             <div className="flex items-center gap-2">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256">
@@ -49,7 +49,7 @@ const Courses = () => {
 
             <p className="text-gray-600 mt-2 text-sm pl-10">Computer Science (0478)</p>
           </Link>
-          <Link to="/courses/course-intro" className="bg-[#c4edea] rounded-lg p-6 hover:bg-[#9de1db] cursor-pointer transition-all">
+          <Link to="/courses/course-units" className="bg-[#c4edea] rounded-lg p-6 hover:bg-[#9de1db] cursor-pointer transition-all">
             <div className="flex items-center gap-2">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256">

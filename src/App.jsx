@@ -6,9 +6,13 @@ import Dashboard from "./pages/Dashboard";
 import ProtectedRoutes from "./protectedRoutes/ProtectedRoutes";
 import Courses from "./pages/Courses";
 import NotFound from "./pages/NotFound";
-import CourseIntro from "./pages/CourseIntro";
 import CourseUnits from "./pages/CourseUnits";
+import UnitLessons from "./pages/UnitLessons";
 import LessonIntro from "./pages/LessonIntro";
+import Introduction from "./pages/Introduction";
+import LessonQuiz from "./pages/LessonQuiz";
+import LessonVideo from "./pages/LessonVideo";
+import LessonWorksheet from "./pages/LessonWorksheet";
 function App() {
   return (
     <>
@@ -21,9 +25,13 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/courses" element={<Courses />} />
-          <Route path="/courses/course-intro" element={<CourseIntro />} />
-          <Route path="/course/lessons" element={<CourseUnits />} />
-          <Route path="/course/lesson/lesson-intro" element={<LessonIntro />} />
+          <Route path="/courses/course-units" element={<CourseUnits />} />
+          <Route path="/course/unit-lessons" element={<UnitLessons />} />
+          <Route path="/course/unit/lesson/lesson-intro" element={<LessonIntro />} />
+          <Route path="/course/unit/lesson/introduction" element={<Introduction />} />
+          <Route path="/course/unit/lesson/lesson-quiz" element={<LessonQuiz />} />
+          <Route path="/course/unit/lesson/lesson-video" element={<LessonVideo />} />
+          <Route path="/course/unit/lesson/lesson-worksheet" element={<LessonWorksheet />} />
         </Route>
         {/* 404 page */}
         <Route path="*" element={<NotFound />} />
