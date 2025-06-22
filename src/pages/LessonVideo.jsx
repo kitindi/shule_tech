@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 
 const LessonVideo = () => {
+  const videoId = "Yh0rQWFiQNI";
   return (
     <div className="w-full py-8 px-16">
       <div className="w-full mb-5 ">
@@ -44,11 +45,11 @@ const LessonVideo = () => {
         </span>
         <h1 className="text-xl font-semibold text-gray-700">Lesson video</h1>
       </div>
-      <div className="w-full max-4xl max-auto">
-        <div className="w-full  max-w-4xl mx-auto h-[500px] bg-gray-200 rounded-lg mt-4">
+      <div className="w-full max-4xl ">
+        <div className="w-full  max-w-4xl h-[500px] bg-gray-200 rounded-lg mt-4">
           <iframe
             className="w-full  h-full"
-            src="https://www.youtube.com/embed/your-video-id"
+            src={`https://www.youtube.com/embed/${videoId}`}
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

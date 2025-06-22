@@ -24,7 +24,7 @@ const Login = () => {
     }
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/profile");
+      navigate("/dashboard");
       setLogginError(""); // Clear error on successful sign-in
       // Clear error on successful sign-in
     } catch (error) {

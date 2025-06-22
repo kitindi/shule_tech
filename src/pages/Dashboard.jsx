@@ -5,7 +5,7 @@ const Dashboard = () => {
     <div className="p-8">
       <div className="grid grid-cols-1 md:grid-cols-4  gap-4">
         <div className="col-span-1 md:col-span-2">
-          <h1 className="text-2xl font-medium text-gray-600">Welcome, Abdulaziz Sadi!</h1>
+          <h1 className="text-xl font-medium text-gray-600">Welcome!</h1>
           <p className="mt-4 text-gray-600 text-sm">You're on a roll! Jump back in, or start something new.</p>
         </div>
         <div className="col-span-1 md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4"></div>
@@ -119,14 +119,14 @@ const Dashboard = () => {
         </div>
       </div>
       <div className="mt-8  w-full">
-        <p className="text-xl font-bold text-gray-700 mb-3">Choose your focus for today</p>
+        <p className="text-lg font-medium text-gray-700 mb-3">Choose your focus for today</p>
         <p className=" text-gray-600 text-sm">Help us make relevant suggestions for you</p>
-        <div>
+        <div className="py-5">
           <div className="w-full grid grid-cols-3 gap-4 mt-4">
             <div className="col-span-2 grid grid-cols-2 gap-5">
               <Link to="/dashboard" className=" col-span-1 border border-gray-200 rounded-md">
-                <div className="w-full h-32 ">
-                  <span className="flex items-center justify-center h-28 w-28 bg-[#4fc9bf] rounded-md mt-5 mx-auto">
+                <div className="w-full ">
+                  <span className="flex items-center justify-center h-20 w-20 bg-[#4fc9bf] rounded-md mt-5 mx-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#fff" fill="none">
                       <path
                         d="M12 17C10.3264 17 8.86971 18.265 8.11766 20.1312C7.75846 21.0225 8.27389 22 8.95877 22H15.0412C15.7261 22 16.2415 21.0225 15.8823 20.1312C15.1303 18.265 13.6736 17 12 17Z"
@@ -158,12 +158,12 @@ const Dashboard = () => {
                   </span>
                 </div>
                 <div className="py-10 px-4">
-                  <p className="text-md text-gray-600 text-center">Join competitions and improve your tech skills</p>
+                  <p className="text-sm text-gray-600 text-center">Join competitions and improve your tech skills</p>
                 </div>
               </Link>
               <Link to="/courses" className=" col-span-1 border border-gray-200 rounded-md">
-                <div className="w-full h-32 ">
-                  <span className="flex items-center justify-center h-28 w-28 bg-[#4fc9bf] rounded-md mt-5 mx-auto">
+                <div className="w-full ">
+                  <span className="flex items-center justify-center h-20 w-20 bg-[#4fc9bf] rounded-md mt-5 mx-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" color="#ffffff" fill="none">
                       <path
                         d="M2 8C2 9.34178 10.0949 13 11.9861 13C13.8772 13 21.9722 9.34178 21.9722 8C21.9722 6.65822 13.8772 3 11.9861 3C10.0949 3 2 6.65822 2 8Z"
@@ -190,7 +190,7 @@ const Dashboard = () => {
                   </span>
                 </div>
                 <div className="py-10 px-8">
-                  <p className="text-md text-gray-600 text-center">Continue learning </p>
+                  <p className="text-sm text-gray-600 text-center">Continue learning </p>
                 </div>
               </Link>
             </div>

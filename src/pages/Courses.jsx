@@ -26,13 +26,13 @@ const Courses = () => {
         </div> */}
       </div>
       <div>
-        <h2 className="text-xl font-semibold text-gray-700 mb-3">Find what's right just for you</h2>
+        <h2 className="text-lg font-medium text-gray-700 mb-3">Find what's right just for you</h2>
         <p className="text-gray-500 text-sm py-3">
           We provide free online lessons with videos, quizzes, and more. Whatever the subject, from GCSE to NECTA carriculum, we've got you covered.
         </p>
 
         <div className="pt-10">
-          <h2 className="py-4 text-lg text-gray-700 font-semibold">Choose a subject</h2>
+          <h2 className="py-4 text-lg text-gray-700 font-medium">Choose a subject</h2>
         </div>
       </div>
       <div>
@@ -68,7 +68,7 @@ const Courses = () => {
         </div>
       </div>
       <div className="pt-10">
-        <h2 className="py-4 text-lg text-gray-700 font-semibold">Join a career-changing bootcamp to build demanding tech skills</h2>
+        <h2 className="py-4 text-lg text-gray-700 font-medium">Join a career-changing bootcamp to build demanding tech skills</h2>
       </div>
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
