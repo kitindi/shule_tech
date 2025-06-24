@@ -46,7 +46,7 @@ const LessonVideo = () => {
         <h1 className="text-xl font-semibold text-gray-700">Lesson video</h1>
       </div>
       <div className="w-full max-4xl ">
-        <div className="w-full  max-w-4xl h-[500px] bg-gray-200 rounded-lg mt-4">
+        <div className="w-full  max-w-4xl h-[500px] bg-gray-400 rounded-lg mt-4">
           <iframe
             className="w-full  h-full"
             src={`https://www.youtube.com/embed/${videoId}`}
